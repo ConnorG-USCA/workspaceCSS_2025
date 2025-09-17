@@ -8,10 +8,25 @@
 05: Any exploration
 ===============================
 */
+
+/** 00 css variable **/
+:root {
+    --body-color: hsl(0, 0%, 50%);
+    --page-color: hsla(30, 32%, 88%, 0.8);
+    --sidebar-color: hsl(0, 100%, 50%);
+}
+
 /** 01 color **/
 body {
-    --background-color: hsl(0, 0%, 50%);
+    background-color: var(--body-color);
 }
 #zen-intro {
-    background-color: hsla(30, 32%, 88%, 0.8);
+    background-color: var(--page-color);
+}
+.sidebar {
+    background-color: var(--sidebar-color);
+}
+/** h1 **/
+h1 {
+    color: hsl(200, 100%, 40%);
 }
