@@ -1,0 +1,17 @@
+/* Style file created by Connor
+===============================
+00: css variable
+01: color
+02: layout
+03: typography
+04: transition, animation, selector practice
+05: Any exploration
+===============================
+*/
+/** 01 color **/
+body {
+    --background-color: hsl(0, 0%, 50%);
+}
+#zen-intro {
+    background-color: hsla(30, 32%, 88%, 0.8);
+}
