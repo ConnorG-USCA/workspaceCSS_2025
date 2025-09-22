@@ -15,7 +15,7 @@
     --page-color: hsla(30, 32%, 88%, 0.8);
     --sidebar-color: hsl(0, 100%, 50%);
     --page-width: 16vw;
-    --page-top: 10vw;
+    --page-top: 10vh;
 }
 
 /** 01 color **/
@@ -32,11 +32,11 @@ body {
 h1 {
     color: hsl(200, 100%, 50%);
 }
-    /** 02 layout **/
-    div.explanation, div.requirements {
-    position:relative;
-    width:var(--page-width);
-    top:var(--page-top);
+/** 02 layout **/
+div.explanation, div.requirements {
+    position: relative;
+    width: var(--page-width);
+    top: var(--page-top); 
 }
 
 div.explanation {
