@@ -34,7 +34,7 @@ h1 {
 }
     /** 02 layout **/
     div.explanation, div.requirements {
-    position:fixed;
+    position:relative;
     width:var(--page-width);
     top:var(--page-top);
 }
