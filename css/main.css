@@ -34,6 +34,7 @@ body {
     right: 0;
     height: var(--bottom-bar-height);
 }
+
 /** h1 **/
 h1 {
     color: hsl(200, 100%, 50%);
@@ -50,4 +51,11 @@ div.explanation {
 }
 div.requirements {
     left: 18vw;
+}
+
+div.extra1{
+    position: fixed;
+    left: 20%;
+    width: 30%;
+    height: 80vh;
 }
