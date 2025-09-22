@@ -14,8 +14,9 @@
     --body-color: hsl(0, 0%, 50%);
     --page-color: hsla(30, 32%, 88%, 0.8);
     --sidebar-color: hsl(0, 100%, 50%);
-    --page-width: 16vw;
-    --page-top: 10vh;
+    --page-width: 30%;
+    --page-top: 85vh;
+    --bottom-bar-height: 10vh;
 }
 
 /** 01 color **/
@@ -27,12 +28,17 @@ body {
 }
 .sidebar {
     background-color: var(--sidebar-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: var(--bottom-bar-height);
 }
 /** h1 **/
 h1 {
     color: hsl(200, 100%, 50%);
 }
-/** 02 layout 
+/** 02 layout **/
 div.explanation, div.requirements {
     position: relative;
     width: var(--page-width);
@@ -44,4 +50,4 @@ div.explanation {
 }
 div.requirements {
     left: 18vw;
-} (disabled) **/
+}
