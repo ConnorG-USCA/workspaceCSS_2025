@@ -28,11 +28,7 @@ body {
 }
 .sidebar {
     background-color: var(--sidebar-color);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: var(--bottom-bar-height);
+    
 }
 
 /** h1 **/
@@ -51,6 +47,14 @@ div.explanation {
 }
 div.requirements {
     left: 18vw;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: var(--bottom-bar-height);
 }
 
 div.extra1{
