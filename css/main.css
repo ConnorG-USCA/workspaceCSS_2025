@@ -63,3 +63,18 @@ div.extra1{
     width: 30%;
     height: 80vh;
 }
+
+/** 03 typography **/
+
+/** 04 transition, animation, selector practice **/
+
+section.intro h3 ~p{
+    text-transform: capitalize;
+    opacity: 1;
+    transform:all 3s ease-in-out;
+}
+
+section.intro h3:hover ~p{
+    opacity: 0;
+    transform: scale(1.2);
+}
