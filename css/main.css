@@ -78,3 +78,10 @@ section.intro h3:hover ~ p{
     opacity: 0;
     transform: scale(1.2);
 }
+
+@keyframes changeColor {
+    from {background-image: linear-gradient(90deg, red, yellow, blue);}
+    50% {background-image: linear-gradient(180deg, red, yellow, blue);}
+    to {background-image: linear-gradient(270deg, red, yellow, blue);}
+}
+
